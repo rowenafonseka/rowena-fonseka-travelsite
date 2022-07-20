@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin; 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, 'Open Sans';
+    font-weight: 400;
+}
+
+.navigation{
+    background-color: #fffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__watermark{
+    color: #335576;
+    padding-left: 2rem;
+
+}
+
+.navigation__list{
+display: flex;
+gap: 2rem;
+list-style: none;
+padding-right: 5rem;
+
+}
+
+.navigation__list-location--link{
+    text-decoration: none;
+    
+}
+
+.navigation__watermark--link{
+    text-decoration: none;
+ 
+}
+
+.navigation__list-location--home{
+    padding-bottom: .5rem;
+    border-bottom-style: solid;
+    border-bottom-color: #DB7A4E;
+    
+}
