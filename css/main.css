@@ -1,10 +1,9 @@
 .hero{
     display: flex;
-    background-color: #fefaf5;
-    width: 100%;
-    height: 450px;
-    
-    
+    justify-content: space-between;
+    background-color: pink;
+    min-width: 100vh;
+    height: 100%;
     
     
 }
@@ -12,20 +11,24 @@
 .hero_text{
 display: flex;
 flex-direction: column;
+min-height: 100vh;
+
+
 }
 
 .hero__text--blue{
     color: #335576;
     padding-left: 4rem;
-    padding-right: 15%;
+    padding-right: 16%;
 }
 
 .hero__image{
-    position: relative;
-    height: 80%;
-    width: 45%;
+    
+    height: 40%;
+    width: 30%;
     margin-right: 10rem;
     padding-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 button{
@@ -36,13 +39,92 @@ button{
     font-weight: 400;
     min-width: 160px;
     max-width: 20%;
+    border:none;
     padding-top: .5rem;
     padding-bottom: .5rem;
     margin-top: 1rem;
     border-radius: 1.5rem;
+    
 
 }
 
 h1{
     font-size: 3rem;
 }
+
+.card{
+    display:flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
+
+.card--hawaii{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-width: 260px;
+    max-width: 280px;
+    min-height: 370px;
+    max-height: 390px;
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color:white;
+    background-image: url(/assets/Images/hawaii.jpg);
+    background-size: 100%;
+
+}
+
+.card--iceland{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-width: 260px;
+    max-width: 280px;
+    min-height: 370px;
+    max-height: 390px;
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    font-size: 1.25rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color:white;
+    background-image: url(/assets/Images/iceland.jpg);
+    background-size: 100%;
+
+}
+
+.card--greece{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-width: 260px;
+    max-width: 280px;
+    min-height: 370px;
+    max-height: 390px;
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    font-size: 1.25rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color:white;
+    background-image: url(/assets/Images/greece.jpg);
+    background-size: 100%;
+
+}
+
+
+h2{
+   padding-left: 4rem;
+   padding-top: 1rem;
+   color: #335576;
+}
+

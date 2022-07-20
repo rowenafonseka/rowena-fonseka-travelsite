@@ -10,12 +10,17 @@
 body{
     font-family: Verdana, 'Open Sans';
     font-weight: 400;
+    margin: 0;
+    
 }
+
 
 .navigation{
     background-color: #fffff;
     display: flex;
     justify-content: space-between;
+    
+   
 }
 
 .navigation__watermark{
@@ -46,5 +51,25 @@ padding-right: 5rem;
     padding-bottom: .5rem;
     border-bottom-style: solid;
     border-bottom-color: #DB7A4E;
+    
+}
+
+.footer{
+    background-color: #fefaf5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__section--blue{
+    color: #335576;
+}
+
+.footer__section--orange{
+    color: #db7a4e;
+    text-transform: uppercase;
+}
+
+.footer__section-hours{
+    display: flex;
     
 }
