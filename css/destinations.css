@@ -1,0 +1,52 @@
+/* Main Section */
+.destination--hawaii{
+    height: 100vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position: 30%;
+    padding-top: 8rem;
+   
+    
+}
+
+.destination__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 260px;
+    max-width: 280px;
+    min-height: 370px;
+    max-height: 390px;
+    margin: 20px;
+    background-color: white;
+p
+    
+    
+
+}
+
+.destination__card-activity{
+    list-style: none;
+    
+}
+
+.destination__card-activity--day{
+    text-align: center;
+    margin-top: -2.5rem;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+
+}
+
+.destination__card-activity--item{
+    text-align: center;
+    padding: 1rem 4.5rem;
+    margin: 1rem;
+    background-color:#FEFAF5;
+    font-weight: lighter;
+}
