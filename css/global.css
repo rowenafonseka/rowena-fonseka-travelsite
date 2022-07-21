@@ -16,9 +16,6 @@ body{
 
 /* Navigation */
 
-
-
-
 .navigation{
     background-color: #FFFFFF;
     display: flex;
@@ -27,21 +24,16 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    
-    
       
 }
-
 
 .navigation__watermark{
     color: #335576;
     padding-left: 2rem;
     margin-top: 1rem;
     font-weight: bold;
-    margin-right: auto;
-    
+    margin-right: auto;  
 }
-
 
 .navigation__list{
     display: flex;
@@ -52,7 +44,6 @@ body{
  
 }
 
-
 .navigation__list-location--link{
     text-decoration: none;    
 }
@@ -61,12 +52,31 @@ body{
     text-decoration: none;
 }
 
-
 .navigation__list-location--home{
     padding-bottom: .5rem;
     border-bottom-style: solid;
     border-bottom-color: #DB7A4E; 
 }
+
+.navigation__list-location--greece{
+    padding-bottom: .5rem;
+    border-bottom-style: solid;
+    border-bottom-color: #DB7A4E; 
+}
+
+.navigation__list-location--hawaii{
+    padding-bottom: .5rem;
+    border-bottom-style: solid;
+    border-bottom-color: #DB7A4E; 
+}
+
+.navigation__list-location--iceland{
+    padding-bottom: .5rem;
+    border-bottom-style: solid;
+    border-bottom-color: #DB7A4E; 
+}
+
+
 
 /* Footer */
 
@@ -74,18 +84,50 @@ body{
     background-color: #fefaf5;
     display: flex;
     justify-content: space-evenly;
+    height: 20vh;
+    padding-left: 12rem;
+    padding-right: 10rem;
+    margin:auto;
 }
+
+
+
 
 .footer__section--blue{
     color: #335576;
+    font-weight: light;
+    padding-top: 1rem;
+
 }
 
 
 .footer__section--orange{
     color: #db7a4e;
     text-transform: uppercase;
+    font-size: .5rem;
+    
+    
 }
 
 .footer__section-hours{
-    display: flex;  
+    list-style: none;
+    margin-top: 0;
+    padding-right: 2rem;
+    
+}
+
+.footer__section--special{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer__section--icon{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+   
+
+    
 }

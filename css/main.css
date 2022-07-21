@@ -3,7 +3,7 @@
 .hero{
     display: flex;
     justify-content: space-between;
-    background-color: pink;
+    background-color: #FEFAF5;
     min-width: 100vh;
     height: 100%;
     margin-top: 60px;
@@ -61,6 +61,7 @@ h1{
     display:flex;
     justify-content:center ;
     flex-wrap: wrap;
+    height: 65vh;
 }
 
 .card--hawaii{
@@ -75,7 +76,7 @@ h1{
     border: 1px solid black rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     margin:20px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
     color:white;
