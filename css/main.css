@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #FEFAF5;
-    min-width: 100vh;
+    /* min-width: 100vh; */
     height: 100%;
     margin-top: 60px;
     
@@ -64,6 +64,10 @@ h1{
     height: 65vh;
 }
 
+.card--link:hover{
+    opacity: 0.5;
+}
+
 .card--hawaii{
     display: flex;
     justify-content: flex-end;
@@ -82,6 +86,7 @@ h1{
     color:white;
     background-image: url(/assets/Images/hawaii.jpg);
     background-size: 100%;
+    
     
 
 }

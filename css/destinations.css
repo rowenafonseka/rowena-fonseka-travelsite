@@ -61,9 +61,10 @@
 
 .destination__card-activity--day{
     text-align: center;
-    margin-top: -2.5rem;
+    margin: -2.5rem 1rem 0 1rem;
     border-bottom: 2px solid black;
     font-weight: bold;
+    
 
 }
 
@@ -81,6 +82,7 @@
     position: absolute;
     top: 5%;
     left: 5%;
+    margin-left: -.5rem;
 
     
 }

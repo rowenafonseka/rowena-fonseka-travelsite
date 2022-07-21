@@ -11,7 +11,7 @@ body{
     font-family: Verdana, 'Open Sans';
     font-weight: 400;
     margin: 0;
-    
+
 }
 
 /* Navigation */
@@ -48,32 +48,34 @@ body{
     text-decoration: none;    
 }
 
+.navigation__list-location--link:hover{
+    padding-bottom: .5rem;
+    border-bottom: 1.5px solid #DB7A4E;
+}
+
+
 .navigation__watermark--link{
     text-decoration: none;
 }
 
 .navigation__list-location--home{
     padding-bottom: .5rem;
-    border-bottom-style: solid;
-    border-bottom-color: #DB7A4E; 
+    border-bottom: solid #DB7A4E;
 }
 
 .navigation__list-location--greece{
     padding-bottom: .5rem;
-    border-bottom-style: solid;
-    border-bottom-color: #DB7A4E; 
+    border-bottom: solid #DB7A4E;
 }
 
 .navigation__list-location--hawaii{
     padding-bottom: .5rem;
-    border-bottom-style: solid;
-    border-bottom-color: #DB7A4E; 
+    border-bottom: solid #DB7A4E;
 }
 
 .navigation__list-location--iceland{
     padding-bottom: .5rem;
-    border-bottom-style: solid;
-    border-bottom-color: #DB7A4E; 
+    border-bottom: solid #DB7A4E;
 }
 
 
@@ -84,10 +86,11 @@ body{
     background-color: #fefaf5;
     display: flex;
     justify-content: space-evenly;
-    height: 20vh;
-    padding-left: 12rem;
-    padding-right: 10rem;
+    height: 25vh;
+    padding-left: 14rem;
+    padding-right: 13rem;
     margin:auto;
+
 }
 
 
