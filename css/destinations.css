@@ -26,6 +26,20 @@
     
 }
 
+.destination--greece{
+    height: 100vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/assets/Images/greece.jpg);
+    background-size: cover;
+    background-position: 30%;
+    padding-top: 8rem;
+    
+}
+
 .destination__card{
     display: flex;
     justify-content: center;
