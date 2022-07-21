@@ -82,6 +82,7 @@ h1{
     color:white;
     background-image: url(/assets/Images/hawaii.jpg);
     background-size: 100%;
+    
 
 }
 
@@ -125,6 +126,10 @@ h1{
     background-image: url(/assets/Images/greece.jpg);
     background-size: 100%;
 
+}
+
+.card--link{
+    text-decoration: none;
 }
 
 
