@@ -10,7 +10,19 @@
     background-size: cover;
     background-position: 30%;
     padding-top: 8rem;
-   
+}
+
+.destination--iceland{
+    height: 100vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/assets/Images/iceland.jpg);
+    background-size: cover;
+    background-position: 30%;
+    padding-top: 8rem;
     
 }
 
@@ -24,9 +36,7 @@
     max-height: 390px;
     margin: 20px;
     background-color: white;
-p
-    
-    
+
 
 }
 
@@ -49,4 +59,14 @@ p
     margin: 1rem;
     background-color:#FEFAF5;
     font-weight: lighter;
+}
+
+.destination__country{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+    
 }
